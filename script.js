@@ -10,11 +10,11 @@ constructor(width,height){
 	get height(){
 		return this._height;
 	}
-}
+
 getArea(){
 	return (this._width*this._height);
 }
-
+}
 class Square extends Animal {
 	constructor(width,height){
 		super(width,height);
